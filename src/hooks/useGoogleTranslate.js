@@ -11,6 +11,7 @@ export default function useGoogleTranslate() {
           pageLanguage: "en",
           includedLanguages: "hi,ta,te,bn,gu,kn,ml,mr,pa,or,as",
           autoDisplay: false,
+          layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
         },
         "google_translate_element"
       );

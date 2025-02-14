@@ -44,12 +44,10 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* Language Selector */}
-          <div className="hidden md:block">
+          <div className="hidden md:block my-auto">
             <div id="google_translate_element"></div>
           </div>
 
-          {/* Mobile Menu Toggle */}
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -94,7 +92,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <motion.div
         className={`md:hidden ${isOpen ? "block" : "hidden"}`}
         initial="closed"

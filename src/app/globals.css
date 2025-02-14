@@ -18,7 +18,44 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  top: 0px !important;
+}
 
+#google_translate_element select {
+  background-color: #f6edfd;
+  color: #383ffa;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+.goog-logo-link,
+.goog-te-gadget span {
+
+  display: none !important;
+
+}
+
+.goog-te-gadget {
+
+  color: transparent !important;
+  font-size: 0;
+
+}
+
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+body > .skiptranslate {
+  display: none !important;
 }
 
 
