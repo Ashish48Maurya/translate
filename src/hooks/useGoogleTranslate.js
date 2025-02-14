@@ -10,7 +10,6 @@ export default function useGoogleTranslate() {
         {
           pageLanguage: "en",
           includedLanguages: "hi,ta,te,bn,gu,kn,ml,mr,pa,or,as",
-          layout: google.translate.TranslateElement.InlineLayout.SIMPLE, // Removes the default dropdown
           autoDisplay: false,
         },
         "google_translate_element"
